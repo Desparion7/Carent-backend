@@ -7,7 +7,7 @@ async function bootstrap() {
   app.use(
     cors({
       credentials: true,
-      origin: ['http://localhost:5173', 'https://wik-land-front.vercel.app'],
+      origin: ['http://localhost:5173', ''],
     }),
   );
   await app.listen(3000);
