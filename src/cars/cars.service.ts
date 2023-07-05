@@ -7,12 +7,20 @@ import { Car } from './interface/car.interface';
 export class CarsService {
   constructor(@InjectModel('Car') private carModel: Model<Car>) {}
 
-  async getCars() {
-    const cars = await this.carModel.find();
-    if (!cars) {
-      throw new NotFoundException('not found');
+  async getCars({ brand }) {
+    if (brand === 'All') {
+      const cars = await this.carModel.find();
+      if (!cars) {
+        throw new NotFoundException('not found');
+      }
+      return cars;
+    } else {
+      const cars = await this.carModel.find({ brand });
+      if (!cars) {
+        throw new NotFoundException('not found');
+      }
+      return cars;
     }
-    return cars;
   }
   async getCarById(id: string) {
     const car = await this.carModel.findById({ _id: id }).exec();
