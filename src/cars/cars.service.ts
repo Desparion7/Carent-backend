@@ -22,11 +22,11 @@ export class CarsService {
       return cars;
     }
   }
-  async getCarById(id: string) {
-    const car = await this.carModel.findById({ _id: id }).exec();
+  async getCarByName(name: string) {
+    const car = await this.carModel.findOne({ name }).exec();
     if (!car) {
       throw new NotFoundException('no car with given id found');
     }
-    return { car };
+    return car;
   }
 }

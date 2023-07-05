@@ -9,8 +9,8 @@ export class CarsController {
   getCars(@Query() query: { brand: string }) {
     return this.carsService.getCars(query);
   }
-  @Get(':id')
-  getCarById(@Param('id') id: string) {
-    return this.carsService.getCarById(id);
+  @Get(':name')
+  getCarByName(@Param('name') name: string) {
+    return this.carsService.getCarByName(name);
   }
 }
