@@ -317,7 +317,8 @@ export const cars = [
       'BMW M xDrive with active M Differential rear differential',
       'MGmotorsport sports exhaust system',
     ],
-    description: '',
+    description:
+      'Fusing a high-revving, 625hp 4.4-litre V8 turbocharged engine with a finely-tuned chassis that incorporates new dampers, the BMW M5 Competition delivers the everyday usability and comfort of an executive saloon twinned with driving pleasure and exceptional on-track ability. At the heart of the BMW M5 Competition is a 4.4-litre V8 engine with M TwinPower Turbo technology. The high-revving, eight-cylinder unit develops 625hp at 6,000rpm. Peak torque of 750Nm is on tap between 1,800 and 5,860rpm. The characteristics of the V8 can be altered at the touch of a button from the EFFICIENT mode to SPORT and SPORT+, the latter two further enhancing the engine’s response to movements of the accelerator. The BMW M5 Competition sprints from 0-62mph in 3.3 seconds, with 0-124mph achieved in 10.8 seconds.',
   },
   {
     id: 9,
