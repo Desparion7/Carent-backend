@@ -31,12 +31,22 @@ export class CarsService {
       // convert date object to string
       const formattedDates = dates.map((date) => {
         const dateObj = new Date(date);
-        return dateObj.toISOString();
+        return dateObj.toLocaleDateString('pl-PL', {
+          year: 'numeric',
+          month: '2-digit',
+          day: '2-digit',
+        });
       });
       // filter cars and left only these with free date
       cars = cars.filter((car) => {
         return !car.calendar.some((date) =>
-          formattedDates.includes(date.toISOString()),
+          formattedDates.includes(
+            date.toLocaleDateString('pl-PL', {
+              year: 'numeric',
+              month: '2-digit',
+              day: '2-digit',
+            }),
+          ),
         );
       });
     }
