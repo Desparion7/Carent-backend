@@ -30,8 +30,8 @@ export const cars = [
     seats: '2',
     torque: '419 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
     ],
     equipment: [
       'Porsche Active Suspension Management (PASM) sports suspension with ride height lowered by 30mm',
@@ -74,8 +74,8 @@ export const cars = [
     seats: '2',
     torque: '690 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
     ],
     equipment: [
       'Carbon-ceramic brakes with fixed calipers monoblock in aluminum with 6 pistons (front) and 4 pistons (rear)',
@@ -116,8 +116,8 @@ export const cars = [
     seats: '5',
     torque: '700 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'RSDynamic plus package',
@@ -159,8 +159,8 @@ export const cars = [
     seats: '2',
     torque: '580 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'MGmotorsport sports exhaust system',
@@ -203,8 +203,8 @@ export const cars = [
     seats: '2',
     torque: '760 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Magneride damping',
@@ -246,8 +246,8 @@ export const cars = [
     seats: '4',
     torque: '847 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Transmission: TREMEC 7-Speed DCT',
@@ -289,8 +289,8 @@ export const cars = [
     seats: '5',
     torque: '500 NM',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'AMG aerodynamic package',
@@ -332,8 +332,8 @@ export const cars = [
     seats: '5',
     torque: '750 NM',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Competition package',
@@ -375,8 +375,8 @@ export const cars = [
     seats: '5',
     torque: '500 Nm',
     calendar: [
-      new Date('2023-07-14T00:00:00.000+00:00'),
-      new Date('2023-07-19T00:00:00.000+00:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Audi drive select adaptive suspension',
