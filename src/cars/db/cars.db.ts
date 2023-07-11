@@ -29,7 +29,10 @@ export const cars = [
     color: 'silver',
     seats: '2',
     torque: '419 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Porsche Active Suspension Management (PASM) sports suspension with ride height lowered by 30mm',
       'Porsche Torque Vectoring (PTV) with mechanically locking rear differential',
@@ -70,7 +73,10 @@ export const cars = [
     color: 'orange',
     seats: '2',
     torque: '690 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Carbon-ceramic brakes with fixed calipers monoblock in aluminum with 6 pistons (front) and 4 pistons (rear)',
       'Double wishbone fully independent suspension',
@@ -109,7 +115,10 @@ export const cars = [
     color: 'green',
     seats: '5',
     torque: '700 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'RSDynamic plus package',
       'MGmotorsport sports exhaust system',
@@ -149,7 +158,10 @@ export const cars = [
     color: 'blue',
     seats: '2',
     torque: '580 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'MGmotorsport sports exhaust system',
       'Ceramic brakes',
@@ -190,7 +202,10 @@ export const cars = [
     color: 'red',
     seats: '2',
     torque: '760 Nm',
-    calendar: [new Date(2023, 6, 16), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Magneride damping',
       'Traction and stability controls (CTS)',
@@ -230,7 +245,10 @@ export const cars = [
     color: 'green',
     seats: '4',
     torque: '847 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Transmission: TREMEC 7-Speed DCT',
       'MagneRide Magnetic Fluid-Filled Shock Absorbers',
@@ -270,7 +288,10 @@ export const cars = [
     color: 'silver',
     seats: '5',
     torque: '500 NM',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'AMG aerodynamic package',
       'AMG Performance Advanced Seat package',
@@ -310,7 +331,10 @@ export const cars = [
     color: 'silver',
     seats: '5',
     torque: '750 NM',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Competition package',
       'M Carbon ceramic brake system',
@@ -350,7 +374,10 @@ export const cars = [
     color: 'yellow',
     seats: '5',
     torque: '500 Nm',
-    calendar: [new Date(2023, 6, 15), new Date(2023, 6, 20)],
+    calendar: [
+      new Date('2023-07-14T22:00:00.000+02:00'),
+      new Date('2023-07-19T22:00:00.000+02:00'),
+    ],
     equipment: [
       'Audi drive select adaptive suspension',
       'MGmotorsport sports exhaust system',
