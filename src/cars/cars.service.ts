@@ -20,7 +20,9 @@ export class CarsService {
     }
     if (startDate && endDate) {
       const convertedStartDate = new Date(startDate);
+      convertedStartDate.setUTCHours(convertedStartDate.getUTCHours() + 2);
       const convertedEndDate = new Date(endDate);
+      convertedEndDate.setUTCHours(convertedEndDate.getUTCHours() + 2);
 
       const dates = [];
       // add dates beetwen start date and end date
@@ -28,6 +30,7 @@ export class CarsService {
         dates.push(new Date(convertedStartDate));
         convertedStartDate.setDate(convertedStartDate.getDate() + 1);
       }
+      console.log(dates);
       // convert date object to string
       const formattedDates = dates.map((date) => {
         const dateObj = new Date(date);
