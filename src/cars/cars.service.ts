@@ -20,11 +20,11 @@ export class CarsService {
     }
     if (startDate && endDate) {
       const convertedStartDate = new Date(startDate);
-      convertedStartDate.setUTCDate(convertedStartDate.getUTCDate() + 1);
+      convertedStartDate.setUTCDate(convertedStartDate.getUTCDate() - 1);
       convertedStartDate.setUTCHours(0, 0, 0, 0);
 
       const convertedEndDate = new Date(endDate);
-      convertedEndDate.setUTCDate(convertedEndDate.getUTCDate() + 1);
+      convertedEndDate.setUTCDate(convertedEndDate.getUTCDate() - 1);
       convertedEndDate.setUTCHours(0, 0, 0, 0);
       const dates = [];
 
