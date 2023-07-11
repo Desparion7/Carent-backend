@@ -30,7 +30,6 @@ export class CarsService {
         dates.push(new Date(convertedStartDate));
         convertedStartDate.setDate(convertedStartDate.getDate() + 1);
       }
-      console.log(dates);
       // convert date object to string
       const formattedDates = dates.map((date) => {
         const dateObj = new Date(date);
