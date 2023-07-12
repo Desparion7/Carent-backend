@@ -2,6 +2,7 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { Model } from 'mongoose';
 import { Car } from './interface/car.interface';
+import { BookingCar } from './dto/booking-car.dto';
 
 @Injectable()
 export class CarsService {
@@ -65,5 +66,9 @@ export class CarsService {
       throw new NotFoundException('no car with given id found');
     }
     return car;
+  }
+
+  async bookCar(body: BookingCar) {
+    console.log(body);
   }
 }

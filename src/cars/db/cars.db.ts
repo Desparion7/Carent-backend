@@ -30,8 +30,8 @@ export const cars = [
     seats: '2',
     torque: '419 Nm',
     calendar: [
-      new Date('2023-07-14T22:00:00.000+02:00'),
-      new Date('2023-07-19T22:00:00.000+02:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Porsche Active Suspension Management (PASM) sports suspension with ride height lowered by 30mm',
@@ -74,8 +74,8 @@ export const cars = [
     seats: '2',
     torque: '690 Nm',
     calendar: [
-      new Date('2023-07-14T22:00:00.000+02:00'),
-      new Date('2023-07-19T22:00:00.000+02:00'),
+      new Date('2023-07-14T00:00:00.000+02:00'),
+      new Date('2023-07-19T00:00:00.000+02:00'),
     ],
     equipment: [
       'Carbon-ceramic brakes with fixed calipers monoblock in aluminum with 6 pistons (front) and 4 pistons (rear)',
