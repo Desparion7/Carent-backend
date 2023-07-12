@@ -20,11 +20,8 @@ export class ReservationsService {
     }
     // Prepare dates
     const convertedStartDate = new Date(body.pickupDate);
-    convertedStartDate.setUTCDate(convertedStartDate.getUTCDate() - 1);
-    convertedStartDate.setUTCHours(0, 0, 0, 0);
     const convertedEndDate = new Date(body.returnDate);
-    convertedEndDate.setUTCDate(convertedEndDate.getUTCDate() - 1);
-    convertedEndDate.setUTCHours(0, 0, 0, 0);
+
     const dates = [];
     while (convertedStartDate <= convertedEndDate) {
       dates.push(new Date(convertedStartDate));
