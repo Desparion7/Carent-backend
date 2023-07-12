@@ -1,6 +1,6 @@
 import { IsString, IsNotEmpty } from 'class-validator';
 
-export class BookingCar {
+export class ReservationCar {
   @IsString()
   @IsNotEmpty()
   carId: string;
