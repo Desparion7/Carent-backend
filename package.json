@@ -32,6 +32,7 @@
     "cors": "^2.8.5",
     "mongoose": "^7.3.1",
     "nestjs-seeder": "^0.3.2",
+    "nodemailer": "^6.9.3",
     "reflect-metadata": "^0.1.13",
     "rxjs": "^7.2.0"
   },
